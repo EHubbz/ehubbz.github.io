@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<html lang="en-us">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/trivia.js"></script>
+		
+	
+	<title>Trivia Game</title>
+
+
+</head>
+
+<body>
+
+	<header>
+		<h1>How Much Do You Know About Vikings?</h1>
+		<button id="playAgain" class="btn btn-default btn-lg normal-button">Play</button>
+		<div id="timer"></div>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div id="game" class="col-md-5">
+				<div class="col-md-6">
+					<p>1. Who named the settlement of Vinland?</p>
+						<form class="answer" action="">
+  							<input class="correct" type="radio" name="answer" value="true">Leif Eiriksson<br>
+  							<input class="incorrect" type="radio" name="answer" value="false">Ivan The Boneless<br>
+  							<input class="incorrect" type="radio" name="answea" value="false">Ragar Lothbrok
+						</form><br>
+					<p>2. What do you call an old, Icelandic story?</p>
+						<form class="answer" action="">
+  							<input class="incorrect" type="radio" name="answer" value="false">atori<br>
+  							<input class="incorrect" type="radio" name="answer" value="false">eskei<br>
+  							<input class="correct" type="radio" name="answer" value="true">saga
+						</form>
+						<br>
+					<p>3. Leif Eiriksson's father was named _____.</p>
+						<form class="answer" action="">
+  							<input class="incorrect" type="radio" name="answer" value="false">Gunnbjorn<br>
+  							<input class="correct" type="radio" name="answer" value="true">Eric The Red<br>
+  							<input class="incorrect" type="radio" name="answer" value="false">Bjarni Herjolfsson
+						</form>
+						<br>
+				</div>
+				<div class="col-md-6">
+					<p>4. The buildings in which Viking families and warriors lived is called a ______.</p>
+						<form class="answer" action="">
+  							<input class="incorrect" type="radio" name="answer" value="false">cliu<br>
+  							<input class="correct" type="radio" name="answer" value="true">longhouse<br>
+  							<input class="incorrect" type="radio" name="answer" value="false">harousse
+						</form><br>
+					<p>5. When did sailing-boats first appear in Scandinavia?</p>
+						<form class="answer" action="">
+  							<input class="correct" type="radio" name="answer" value="true">600-700 A.D.<br>
+  							<input class="incorrect" type="radio" name="answer" value="false">1000-1100 A.D.<br>
+  							<input class="incorrect" type="radio" name="answer" value="false">400-500 A.D.
+						</form><br>
+				<div id="scoreBtn">		
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="modal fade" id="myModal" role="dialog">
+	<div class="modal-dialog">
+    	<div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Here's how you did...</h4>
+        </div>
+        <div class="modal-body">
+          <p id="score"></p>
+        </div>
+        <div class="modal-footer">
+          <button id="clear-form" type="button" class="btn btn-default" data-dismiss="modal" value="clear">Close</button>
+        </div>
+      </div>
+     </div>
+  </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
