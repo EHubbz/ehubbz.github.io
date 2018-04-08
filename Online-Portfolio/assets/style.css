@@ -1,9 +1,17 @@
 body {
-	background-color: lightgrey;
+	background-color: #67605c;
 }
 
 #mainContainer {
 	margin-top: 70px;
+}
+
+#ehLogo {
+	-webkit-animation-duration: 4s;
+}
+
+#links {
+	-webkit-animation-duration: 4s;
 }
 
 a {
