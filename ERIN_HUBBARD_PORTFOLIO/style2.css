@@ -120,7 +120,7 @@ ul {
 
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 530px) {
     /* For mobile phones: */
     .break {
         display: none;
