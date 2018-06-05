@@ -35,7 +35,7 @@ body {
 
 h1 {
     color: white;
-    font-size: 60px;
+    font-size: 55px;
 }
 
 .break {
@@ -44,7 +44,7 @@ h1 {
 
 h4 {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 p {
@@ -120,7 +120,7 @@ ul {
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 375px) {
     /* For mobile phones: */
     .break {
         display: none;
