@@ -1,0 +1,128 @@
+body {
+    background-image: url("background3.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: black;
+    opacity: .9;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.container {
+    background-color: black;
+    margin-top: 40px;
+}
+
+.gold {
+    color: rgb(233, 206, 87);
+}
+
+.empty {
+    margin-top: 155px;
+    border-color: rgb(233, 206, 87);
+    border-top: 2px;
+}
+
+#info {
+    margin-top: 80px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(233, 206, 87);
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.break {
+    display: block;
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+hr {
+  border-top: 1px solid rgb(233, 206, 87);
+}
+
+.background-image {
+    opacity: .2;
+}
+
+#list {
+    /* align-content: center; */
+    border: 2px white;
+    /* text-align: center; */
+    color: white;
+}
+
+ul {
+    list-style: none;
+    color: white;
+    border: 2px white;
+    
+}
+/* li::before {
+    content: "•"; 
+    color: rgb(233, 206, 87);
+    display: inline-block; 
+    font-size: 20px;
+    width: 2em;
+    margin-left: -1em;
+} */
+
+#home:hover, #github:hover, #about:hover, #featured:hover, #contact:hover, #emai:hover, #linkedin:hover {
+    color: white;
+    color: rgb(233, 206, 87);
+    
+}
+
+#home, #github, #about, #featured, #contact, #email, #linkedin {
+    color: white;
+}
+
+#email, #linkedin {
+    margin-left: 0px;
+    text-align: left;
+}
+
+.list-inline {
+    align-content: center;
+    text-align: center;
+}
+
+#middle {
+    border-top: 1px solid white;
+    margin-left: 100px;
+}
+
+#cook, #cart, #mongo, #park {
+    color: white;
+}
+
+#cook:hover, #cart:hover, #mongo:hover, #park:hover {
+    color: rgb(233, 206, 87);
+}
+
+#works {
+    text-decoration-style: wavy;
+    color: rgb(233, 206, 87);
+
+}
+
+@media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    .break {
+        display: none;
+    }
+    }
