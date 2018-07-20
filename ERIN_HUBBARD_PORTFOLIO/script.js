@@ -10,7 +10,7 @@ var showContact = function() {
 
 var showProjects = function() {
   document.getElementById("info").innerHTML =
-    "<p class='names' onclick='showCook()'>Cook-Or-Naught</p> <p class='names' onclick='showCatalog()'>Cart Catalog</p> <p id='works'>In the Works...</p> <p class='names' onclick='showMongo()'>Mongo Home Makeover</p>  <p class='names' onclick='showPark()'>Park-It-4Ward</p>";
+    "<p class='names' onclick='showCook()'>Cook-Or-Naught</p> <p class='names' onclick='showCatalog()'>Cart Catalog</p> <p class='names' onclick='showReact()'>React To-do App</p> <p id='works'>In the Works...</p> <p class='names' onclick='showMongo()'>Mongo Home Makeover</p>  <p class='names' onclick='showPark()'>Park-It-4Ward</p>";
   // <br><br> <a id='mongo' href='https://mongo-home-makeover.herokuapp.com/'>MONGO HOME MAKEOVER</a><br><br>  <a id='cart' href='http://project3web-prod.us-west-2.elasticbeanstalk.com/'>CART CATALOG</a><br><br>      <a id='park' href='https://ehubbz.github.io/Project1/'>PARK-IT-4WARD</a>";
 };
 
@@ -27,6 +27,11 @@ var showMongo = function() {
 var showCatalog = function() {
   document.getElementById("info").innerHTML =
     "<p onclick='showCatalog()'>Cart Catalog</p> <p>This desktop app is every vintage video gamer's dream. With its retro arcade feel, this app lets the user(if logged in) search igdb.api for the games they own so they can digitally track their collection online. The api allows users to filter their search by release and platform. Additionally, the user can find the real time estimated value of their game using the ebay api, thus allowing the user to estimate the value of their collection. This app also lets the user join in the forum discussion platforms on various topics.</p> <p>Functionality achieved through: CSS, AnimateCSS, Bootstrap, JavaScript, jQuery, Moment.JS, SQL, Sequelize, ebay.api, igbd.api, Gulp task manager, ASP.NET, full C# backend configuration, anti-forgery user authentication </p><p>This app is currently not designed for mobile devices, but will become so in the future.</p><p>Click below to see it in action.</p><a target='_blank' id='cart' href='http://project3web-prod.us-west-2.elasticbeanstalk.com/'>Cart Catalog</a>";
+};
+
+var showReact = function() {
+  document.getElementById("info").innerHTML =
+    "<p onclick='showReact()'>React To-Do App</p> <p>I am presenting this app in a video demo as it is currently still in progress.</p> <p>In this to-do app, the user can enter a task title and description to add to their list, toggle between completed and not completed by clicking the task to add/remove a line thru, edit and save the edited task, cancel editing mode, and delete the task from the list. There is also a button in the works for the user to click to remind them in a certain length of time to complete it, which for demonstration purposes is set for 5 seconds. This function is not yet completed (as you can see by the [object: object] in the alert).</p> <p>Additional functionality includes but is not limited to: allowing the user to set a specific time/date for the reminder versus the hard-coded 5 seconds currently and backend storage for the user's information to persist.</p> <p>Functionality achived through React.js, CSS, Bootstrap, Lodash, Node.js</p> <a target='_blank' id='react' href='https://youtu.be/rv0-BWDEMm0'>React To-Do App</a>";
 };
 
 var showPark = function() {

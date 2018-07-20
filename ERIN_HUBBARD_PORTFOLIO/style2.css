@@ -48,7 +48,7 @@ h4 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 hr {
@@ -125,6 +125,7 @@ ul {
 
 #cook,
 #cart,
+#react,
 #mongo,
 #park {
   color: white;
@@ -134,6 +135,7 @@ ul {
 .names:hover,
 #cook:hover,
 #cart:hover,
+#react:hover,
 #mongo:hover,
 #park:hover {
   color: rgb(233, 206, 87);
