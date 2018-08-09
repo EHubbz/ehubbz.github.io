@@ -124,20 +124,20 @@ ul {
 }
 
 #cook,
-#cart,
+#gif,
 #react,
 #mongo,
-#park {
+#train {
   color: white;
   cursor: pointer;
 }
 
 .names:hover,
 #cook:hover,
-#cart:hover,
+#gif:hover,
 #react:hover,
 #mongo:hover,
-#park:hover {
+#train:hover {
   color: rgb(233, 206, 87);
 }
 
